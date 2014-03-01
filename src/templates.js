@@ -34,7 +34,7 @@ window.nekland.Editor.prototype.getTemplates = function() {
          */
         before: function(size) {
             var button, tpl, _i, _len;
-            tpl = '<div>';
+            tpl = '<div class="module-controller">';
 
             // Get each module and execute the getTemplate method
             for (_i = 0, _len = self.modules.length; _i < _len; _i++) {

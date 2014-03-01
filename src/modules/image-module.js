@@ -40,6 +40,7 @@
 
         // Content of the modal
         tpl += '<div class="modal-body"><div class="row"><div class="col-md-10">';
+        tpl += '<form id="my-awesome-dropzone" action="/target" class="dropzone"></form>';
         tpl += '<label for="image-input">' + this.translator.translate('yourImage', {ucfirst: true}) + '</label>';
         tpl += '<input type="file" class="" name="' + this.options.inputName + '" id="image-input" />';
         tpl += '<p class="error"></p>';
